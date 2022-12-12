@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand ms-1"  href="/"> GuiaPress </a>
+
+
+  <div class="dropdown">
+    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+      Filtre por Categoria
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      <%categories.forEach(category => { %>
+      <li><a class="nav-link" href="/category/<%= category.slug %>"><%= category.title %></a></li>
+      <% }) %>
+    </ul>
+  </div>
+
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item">
+      <a class="nav-link"  href="/admin/users/create">Criar Conta</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"  href="/login">Login</a>
+    </li>
+  </ul>
+
+</nav>
