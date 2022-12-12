@@ -14,6 +14,7 @@ Todo o projeto segue o padrão MVC, além de organizado e dinâmico, é muito ma
 
 <h1> Ferramentas adicionais </h1>
 Algumas das ferramentas que utilizei foram: <br>
+EJS: Template Engine utilizada para transportar dados do back-end para o front-end
 Body-Parser: utilizado para converter o body da requisição para o formato JSON, para facilitar o manipulamento de dados. <br>
 Slugify: utilizado para converter o nome de categoria e artigos para o formato slug.
 TinyMCE: utiliado para auxiliar no cadastro de um artigo, sendo ele um editor de texto que tem a capacidade de converter campos de área de texto HTML ou outros elementos HTML.
